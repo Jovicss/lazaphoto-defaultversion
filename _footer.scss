@@ -1,0 +1,49 @@
+footer {
+    button {
+        padding: 3px 20px 3px 20px;
+        border: 1px solid #c06363;
+        background-color: transparent;
+        color: white;
+        font-family: 'Arima', cursive;
+        font-size: 14px;
+        background-color: #c06363;
+        transition: 500ms;
+        &:hover {
+            background-color: transparent;
+            color: #c06363;
+        }
+    }
+    input {
+        padding-bottom: 2.8px;
+        font-size: 15px;
+    }
+    div {
+        text-align: center;
+        a {
+            font-size: 18px;
+            color: white;
+            margin-left: 5px;
+            margin-right: 5px;
+            transition: 500ms;
+            &:hover {
+                color: #6161D5;
+            }
+        }
+    }
+    p {
+        font-size: 10px;
+        font-family: georgia,sans-serif;
+        color: #ededec;
+        text-align: center;
+    }
+    hr {
+        height: 3px;
+        color: rgb(87, 87, 87);
+    }
+    .subsCha {
+        font-size: 15px;
+        font-family: georgia,sans-serif;
+        color: #ededec;
+        text-align: center;
+    }
+}
